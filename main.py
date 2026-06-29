@@ -22,3 +22,5 @@ choice = ['''
       (____)
 ---.__(___)
 ''']
+import random
+computer_choice = random.randint(0, 2)
