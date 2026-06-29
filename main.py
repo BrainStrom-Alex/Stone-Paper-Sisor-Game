@@ -42,3 +42,21 @@ if me == 0:
         print("You Lose")
     elif computer_choice == 2:
         print("You Win")
+
+if me == 1:
+    print('''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+''')
+    print("Computer Choice ")
+    print(choice[computer_choice])
+    if computer_choice == 0:
+        print("You Win")
+    elif computer_choice == 1:
+        print("It's a draw")
+    elif computer_choice == 2:
+        print("You Lose")
