@@ -61,6 +61,7 @@ if me == 1:
     elif computer_choice == 2:
         print("You Lose!")
 
+
 if me == 2:
     print('''
     _______
@@ -78,9 +79,6 @@ if me == 2:
         print("You Win!")
     elif computer_choice == 2:
         print("It's a draw!")
-
-else:
-    print("You choose invalid number. You Lose!")
 
 # rock = '''
 #     _______
