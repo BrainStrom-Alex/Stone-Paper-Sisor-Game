@@ -37,11 +37,11 @@ if me == 0:
     print("Computer Choice:")
     print(choice[computer_choice])
     if computer_choice == 0:
-        print("It's a draw")
+        print("It's a draw!")
     elif computer_choice == 1:
-        print("You Lose")
+        print("You Lose!")
     elif computer_choice == 2:
-        print("You Win")
+        print("You Win!")
 
 if me == 1:
     print('''
@@ -55,11 +55,11 @@ if me == 1:
     print("Computer Choice:")
     print(choice[computer_choice])
     if computer_choice == 0:
-        print("You Win")
+        print("You Win!")
     elif computer_choice == 1:
-        print("It's a draw")
+        print("It's a draw!")
     elif computer_choice == 2:
-        print("You Lose")
+        print("You Lose!")
 
 if me == 2:
     print('''
@@ -73,11 +73,14 @@ if me == 2:
     print("Computer Choice:")
     print(choice[computer_choice])
     if computer_choice == 0:
-        print("You Lose")
+        print("You Lose!")
     elif computer_choice == 1:
-        print("You Win")
+        print("You Win!")
     elif computer_choice == 2:
-        print("It's a draw")
+        print("It's a draw!")
+
+else:
+    print("You choose invalid number. You Lose!")
 
 # rock = '''
 #     _______
