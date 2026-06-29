@@ -34,7 +34,7 @@ if me == 0:
       (____)
 ---.__(___)
 ''')
-    print("Computer Choice ")
+    print("Computer Choice:")
     print(choice[computer_choice])
     if computer_choice == 0:
         print("It's a draw")
@@ -52,7 +52,7 @@ if me == 1:
          _______)
 ---.__________)
 ''')
-    print("Computer Choice ")
+    print("Computer Choice:")
     print(choice[computer_choice])
     if computer_choice == 0:
         print("You Win")
@@ -70,7 +70,7 @@ if me == 2:
       (____)
 ---.__(___)
 ''')
-    print("Computer Choice ")
+    print("Computer Choice:")
     print(choice[computer_choice])
     if computer_choice == 0:
         print("You Lose")
