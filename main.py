@@ -79,6 +79,8 @@ if me == 2:
         print("You Win!")
     elif computer_choice == 2:
         print("It's a draw!")
+elif me !=0 and me != 1:
+    print("Invalid Choice")
 
 # rock = '''
 #     _______
